@@ -1,28 +1,13 @@
 {
-  "name": "mobx-react-boilerplate",
+  "name": "",
   "version": "1.0.0",
-  "description": "Boilerplate for MobX + React project with JSX, ES6 and decorator compilation",
+  "description": "",
   "scripts": {
     "start": "webpack-dev-server --hot --open",
-    "lint": "eslint src"
+    "starter": "webpack-dev-server --open",
+    "lint": "eslint src",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mobxjs/mobx-react-boilerplate.git"
-  },
-  "keywords": [
-    "react",
-    "reactjs",
-    "boilerplate",
-    "mobx",
-    "starter-kit"
-  ],
-  "author": "Michel Weststrate <mweststrate@gmail.com> (http://github.com/mweststrate)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mobxjs/mobx/issues"
-  },
-  "homepage": "http://mobxjs.github.com/mobx",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
@@ -30,15 +15,21 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
+    "jest": "^23.6.0",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
     "mobx": "^5.0.3",
     "mobx-react": "^5.2.3",
     "mobx-react-devtools": "^6.0.1",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.5.2",
+    "react-test-renderer": "^16.5.2",
+    "styled-components": "^3.4.10"
   }
 }
